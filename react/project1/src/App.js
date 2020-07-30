@@ -1,16 +1,18 @@
-import React from 'react';
-import { HashRouter, Route }from "react-router-dom";
-import Home from "./routes/home";
-import About from "./routes/about";
-import Detail from "./routes/detail";
-import Navbar from "./Components/nav";
+import React from "react";
+import { HashRouter, Route } from "react-router-dom";
+import Home from "./routes/Home";
+import About from "./routes/About";
+import Detail from "./routes/Detail";
+import Navigation from "./components/Navigation";
+import "./App.css";
+
 function App() {
   return (
     <HashRouter>
-      <Navbar /?
-        <Route path="/" exact={true} component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/movie:id" component={Detail} />
+      <Navigation />
+      <Route path="/" exact={true} component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/movie/:id" component={Detail} />
     </HashRouter>
   );
 }
