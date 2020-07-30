@@ -15,9 +15,9 @@ steps for running the app:-
 	3. yarn install
 	4. yarn start 
 ```
-####### Axios 
+###### Axios 
        Used for fetching the movie reviews api.
-####### React-router-dom
+###### React-router-dom
       It keeps track of states of the app and location and renders different route as it changes on action and keep history of API.
 
 ### TECHNOLOGY STACK USED:
