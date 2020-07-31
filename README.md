@@ -26,7 +26,7 @@ steps for running the app:-
 
 Javascript, Html, Css
 
-##### FRAMEWORK USED:
+##### FRAMEWORK & LIBRARY USED:
 
 React, React-router-dom, axios, npm.
 
