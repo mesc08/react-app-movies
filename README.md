@@ -1,9 +1,9 @@
 # Best movie Recommendation app based on Imdb reviews
 
 ### AIM
-A reactjs app that shows movies which has best movie so that user who are movie freak(frankly speaking I aint)
-doesnt regret that they have seen the movie or not. Successfully implemented the app using api that fetches
-movies data using axios
+A reactjs app that shows best recommended movies poster with detailed review user who are movie freak(frankly speaking I am not)
+does not regret that they have not watch these movies . Used a movie api that fetches all the data related to movie like year of 
+release, summary, title, rating, cover photo etc.
 
 ### WORKING
 
